@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultitaskingSamples.Cli", "MultitaskingSamples.Cli\MultitaskingSamples.Cli.csproj", "{F4134D0A-5BC5-45C0-A604-3C79145CEAFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4134D0A-5BC5-45C0-A604-3C79145CEAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4134D0A-5BC5-45C0-A604-3C79145CEAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4134D0A-5BC5-45C0-A604-3C79145CEAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4134D0A-5BC5-45C0-A604-3C79145CEAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
