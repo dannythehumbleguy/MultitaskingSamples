@@ -4,8 +4,11 @@ var scheduler = new PriorityTaskSchedulerV2(3);
 
 void AddTask(string name, int delayMs, int priority)
 {
-    scheduler.Enqueue(async () =>
+    scheduler.Enqueue(async (u) =>
     {
+        if(u.IsCancellationRequested)
+            return;
+        
         Console.WriteLine($"[START] {name} (priority {priority})");
         await Task.Delay(delayMs);
         Console.WriteLine($"[END]   {name} (priority {priority})");
